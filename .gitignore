@@ -1,0 +1,5 @@
+output/
+.session*.json
+qr*.png
+_ref_*/
+node_modules/

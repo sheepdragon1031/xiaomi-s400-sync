@@ -1,0 +1,16 @@
+{
+  "name": "xiaomi-s400-sync",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js tool to extract Xiaomi Scale S400 BLE bindkeys, download historical body composition data from Xiaomi Cloud, and clean/export it for openScale, Health Connect, and Google Fit.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "explore": "node step1_explore.mjs",
+    "history": "node step1_5_history.mjs",
+    "clean": "node step2_clean_history.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
